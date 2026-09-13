@@ -10,6 +10,8 @@ version: "1.0.0"
 
 tagline: One gateway for multiple AI providers
 
+icon: https://raw.githubusercontent.com/diegosouzapw/OmniRoute/main/public/icon-192.svg
+
 description: >-
   OmniRoute is a unified AI gateway that lets you connect and manage
   multiple AI providers through a single OpenAI-compatible API.
