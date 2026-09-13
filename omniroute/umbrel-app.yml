@@ -1,0 +1,22 @@
+manifestVersion: 1
+id: omniroute
+category: utilities
+name: OmniRoute
+version: "3.8.51"
+tagline: Free AI gateway and model router
+description: >-
+  OmniRoute is a self-hosted AI gateway that provides a single
+  OpenAI-compatible endpoint for multiple AI providers and models.
+  It supports automatic routing, fallback, free providers,
+  Ollama and coding tools such as OpenCode, Cline and Codex.
+developer: OmniRoute
+website: https://www.omniroute.online/
+submitter: Community
+submission: Community
+repo: https://github.com/diegosouzapw/OmniRoute
+support: https://github.com/diegosouzapw/OmniRoute/issues
+port: 20128
+gallery: []
+releaseNotes: ""
+dependencies: []
+path: ""
