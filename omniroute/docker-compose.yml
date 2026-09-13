@@ -4,13 +4,14 @@ services:
 
   app_proxy:
     environment:
-      APP_HOST: omniroute_web_1
+      APP_HOST: omniroute-gateway_web_1
       APP_PORT: 20128
 
   web:
-    image: diegosouzapw/omniroute:latest
+    image: ghcr.io/diegosouzapw/omniroute:main-web@sha256:ef835d7f9b251ae9ce851f70489d1a674c054fddfcb11234df883138f848ae0f
     restart: on-failure
     stop_grace_period: 40s
+    init: true
 
     volumes:
       - ${APP_DATA_DIR}/data:/app/data
