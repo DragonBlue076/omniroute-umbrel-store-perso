@@ -13,8 +13,8 @@ tagline: One gateway for multiple AI providers
 description: >-
   OmniRoute is a unified AI gateway that lets you connect and manage
   multiple AI providers through a single OpenAI-compatible API.
-  It supports local AI providers such as Ollama and can be accessed
-  through a modern web dashboard.
+  It supports local AI providers such as Ollama and provides a
+  modern web dashboard.
 
 developer: Cheaper Inference
 
@@ -25,6 +25,11 @@ repo: https://github.com/diegosouzapw/OmniRoute
 support: https://github.com/diegosouzapw/OmniRoute/issues
 
 port: 20128
+
+gallery: []
+
+releaseNotes: >-
+  Initial Umbrel Community App Store release.
 
 dependencies: []
 
